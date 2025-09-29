@@ -1,0 +1,89 @@
+/* Header */
+header {
+    background: #2c3e50;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+}
+
+header .logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+header nav a {
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* middle section */
+.div {
+    height: 80vh;
+    background: url('abhi.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:white;
+    padding: 20px;
+}
+
+.div h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.div p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.div .btn {
+    background: #fff;
+    color: #2c3e50;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.div .btn:hover {
+    background: #f1c40f;
+    color: #fff;
+}
+
+/* About Section */
+.about, .contact {
+    padding: 50px;
+    text-align: center;
+}
+
+.about h2, .contact h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #2c3e50;
+}
+
+.about p, .contact p {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Footer */
+footer {
+    background: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
